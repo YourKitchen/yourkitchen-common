@@ -451,4 +451,10 @@ google-keystore.keystore
 private-key.json
 AuthKey.p8
 
-.yarn/
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
