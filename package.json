@@ -5,9 +5,9 @@
   "version": "1.0.2",
   "private": true,
   "scripts": {
-    "build": "tsc -b",
-    "clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo",
-    "preinstall": "npm run build",
+    "typescript:build": "tsc -b",
+    "typescript:clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo",
+    "prepack": "npm run typescript:build",
     "lint": "eslint --fix . && prettier --write . --ignore-unknown",
     "lint:staged": "lint-staged"
   },
@@ -30,5 +30,11 @@
     "axios": "^0.21.4",
     "gql-query-builder": "^3.5.5",
     "react": "^17.0.2"
-  }
+  },
+  "devDependencies": {
+    "@types/node": "16.11.13",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "packageManager": "yarn@3.1.1"
 }
