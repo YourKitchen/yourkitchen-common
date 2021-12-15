@@ -1,5 +1,4 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
@@ -10,8 +9,26 @@
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "baseUrl": ".",
+
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    "strict": true,
+
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+
+    "incremental": true,
+
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "useUnknownInCatchVariables": false,
+    "target": "esnext",
+
+    "composite": true
   },
-  "references": [{ "path": "../yourkitchen-models" }],
   "exclude": ["node_modules", "dist"]
 }
