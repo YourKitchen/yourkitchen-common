@@ -5,9 +5,15 @@
   "version": "1.0.2",
   "private": true,
   "scripts": {
-    "typescript:deploy": "tsc -b",
-    "typescript:clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo",
-    "preinstall": "npm run build"
+    "build": "tsc -b",
+    "clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo",
+    "preinstall": "npm run build",
+    "lint": "eslint --fix . && prettier --write . --ignore-unknown",
+    "lint:staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --fix",
+    "*": "prettier --write --ignore-unknown"
   },
   "babel": {
     "presets": [
