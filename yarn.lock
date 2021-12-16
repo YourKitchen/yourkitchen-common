@@ -87,7 +87,7 @@ __metadata:
   resolution: "@yourkitchen/common@workspace:."
   dependencies:
     "@types/node": 16.11.13
-    "@yourkitchen/models": "https://github.com/YourKitchen/yourkitchen-models"
+    "@yourkitchen/models": "git+https://github.com/YourKitchen/yourkitchen-models"
     axios: ^0.21.4
     gql-query-builder: ^3.5.5
     react: ^17.0.2
@@ -96,13 +96,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@yourkitchen/models@https://github.com/YourKitchen/yourkitchen-models":
+"@yourkitchen/models@git+https://github.com/YourKitchen/yourkitchen-models":
   version: 1.0.5
-  resolution: "@yourkitchen/models@https://github.com/YourKitchen/yourkitchen-models.git#commit=38a6d217425eb6aa3f7d2bb3dfd86f82d14080f3"
+  resolution: "@yourkitchen/models@https://github.com/YourKitchen/yourkitchen-models.git#commit=3786a75b5776286cfc21728322e8ff0370e1237b"
   dependencies:
     graphql-compose-mongoose: ^9.6.0
     mongoose: 5.13.4
-  checksum: 966786664fdc45ce40f89ee63c61ad0c6805835810fe1e87a65b63f93cd582c00c79668f22d1484e1ab43cfa7e87091b741d556a8346975e5bdf87b6e43737bb
+  checksum: 6dc339d406a93a892b8d7f76ed70ca56f26a13e9f004f65db9cf296f07ad3ec69f13dc99f9ea1694f87a414e9b88ba0331ca83b78dc881150ebb4b9a50b56985
   languageName: node
   linkType: hard
 
