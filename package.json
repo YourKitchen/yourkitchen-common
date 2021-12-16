@@ -5,9 +5,9 @@
   "version": "1.0.2",
   "private": true,
   "scripts": {
-    "typesscript:deploy": "tsc -b",
+    "typescript:deploy": "tsc -b",
     "typescript:clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo",
-    "prepack": "npm run typesscript:deploy",
+    "prepack": "npm run typescript:deploy",
     "lint": "eslint --fix . && prettier --write . --ignore-unknown",
     "lint:staged": "lint-staged"
   },
