@@ -5,9 +5,9 @@
   "version": "1.0.2",
   "private": true,
   "scripts": {
-    "typescript:build": "tsc -b",
+    "typesscript:deploy": "tsc -b",
     "typescript:clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo",
-    "prepack": "npm run typescript:build",
+    "prepack": "npm run typesscript:deploy",
     "lint": "eslint --fix . && prettier --write . --ignore-unknown",
     "lint:staged": "lint-staged"
   },
@@ -26,7 +26,7 @@
     ]
   },
   "dependencies": {
-    "@yourkitchen/models": "https://github.com/YourKitchen/yourkitchen-models",
+    "@yourkitchen/models": "git+https://github.com/YourKitchen/yourkitchen-models",
     "axios": "^0.21.4",
     "gql-query-builder": "^3.5.5",
     "react": "^17.0.2"
