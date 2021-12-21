@@ -87,7 +87,7 @@ __metadata:
   resolution: "@yourkitchen/common@workspace:."
   dependencies:
     "@types/node": 16.11.13
-    "@yourkitchen/models": "git+https://github.com/YourKitchen/yourkitchen-models"
+    "@yourkitchen/models": "https://github.com/YourKitchen/yourkitchen-models.git"
     axios: ^0.21.4
     gql-query-builder: ^3.5.5
     react: ^17.0.2
@@ -96,13 +96,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@yourkitchen/models@git+https://github.com/YourKitchen/yourkitchen-models":
+"@yourkitchen/models@https://github.com/YourKitchen/yourkitchen-models.git":
   version: 1.0.5
-  resolution: "@yourkitchen/models@https://github.com/YourKitchen/yourkitchen-models.git#commit=3786a75b5776286cfc21728322e8ff0370e1237b"
+  resolution: "@yourkitchen/models@https://github.com/YourKitchen/yourkitchen-models.git#commit=3bafc9f8a673502eb2e041d5ad25d72b2bd0b566"
   dependencies:
+    graphql: ^15.3.0
+    graphql-compose: ^9.0.4
     graphql-compose-mongoose: ^9.6.0
     mongoose: 5.13.4
-  checksum: 6dc339d406a93a892b8d7f76ed70ca56f26a13e9f004f65db9cf296f07ad3ec69f13dc99f9ea1694f87a414e9b88ba0331ca83b78dc881150ebb4b9a50b56985
+  checksum: 72b46f28b96eadb72e083f694f2503b05eb8a6aa3e0847c97aa361924e45300ae7d976ec6572c51fd4b3336d3d7a0fcef492fa7040530f02dc7d58b5dc22006a
   languageName: node
   linkType: hard
 
@@ -252,6 +254,33 @@ __metadata:
   peerDependencies:
     graphql-compose: ^7.15.0 || ^8.0.0 || ^9.0.0
   checksum: e59f48a223620097a094c67535402aae4970e2c9d0e48d844c3cb3bbadaad8ad350ece2b790e4037fbaf6536880623214ecae9894d5201e8d86c4146b9e2c8ba
+  languageName: node
+  linkType: hard
+
+"graphql-compose@npm:^9.0.4":
+  version: 9.0.5
+  resolution: "graphql-compose@npm:9.0.5"
+  dependencies:
+    graphql-type-json: 0.3.2
+  peerDependencies:
+    graphql: ^14.2.0 || ^15.0.0 || ^16.0.0
+  checksum: 8dc451d9ee9cc6873de9d56a3a0099c4f3beb31f8f382200edb635266b887704ffddf4e6b734fd619a50344005d7429b548e47f0d8e3309ced0ea955e1e42a52
+  languageName: node
+  linkType: hard
+
+"graphql-type-json@npm:0.3.2":
+  version: 0.3.2
+  resolution: "graphql-type-json@npm:0.3.2"
+  peerDependencies:
+    graphql: ">=0.8.0"
+  checksum: 41620699637a5294937bd61d6e2696edea5a1279ef3d8f4b33716a910635595435381ccd1b74c6fae62c2bc81064c62ae27d3559c8380c0f99bdfdc8ecb249b0
+  languageName: node
+  linkType: hard
+
+"graphql@npm:^15.3.0":
+  version: 15.8.0
+  resolution: "graphql@npm:15.8.0"
+  checksum: 423325271db8858428641b9aca01699283d1fe5b40ef6d4ac622569ecca927019fce8196208b91dd1d8eb8114f00263fe661d241d0eb40c10e5bfd650f86ec5e
   languageName: node
   linkType: hard
 
