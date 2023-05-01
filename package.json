@@ -10,7 +10,7 @@
   "scripts": {
     "typescript:deploy": "tsc -b",
     "typescript:clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo",
-    "prepack": "npm run typescript:deploy",
+    "prepare": "npm run typescript:clean && npm run typescript:deploy",
     "lint": "eslint --fix . && prettier --write . --ignore-unknown",
     "lint:staged": "lint-staged"
   },
