@@ -29,7 +29,7 @@
     ]
   },
   "dependencies": {
-    "@yourkitchen/models": "git+https://github.com/YourKitchen/yourkitchen-models.git",
+    "@yourkitchen/models": "YourKitchen/yourkitchen-models#master",
     "axios": "^1.4.0",
     "buffer": "^6.0.3",
     "gql-query-builder": "^3.8.0",

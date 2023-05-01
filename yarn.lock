@@ -70,6 +70,15 @@
     "@types/node" "*"
     "@types/webidl-conversions" "*"
 
+"@yourkitchen/models@YourKitchen/yourkitchen-models#master":
+  version "1.0.5"
+  resolved "https://codeload.github.com/YourKitchen/yourkitchen-models/tar.gz/2d70f8aa2080d10e92cf8a9f56590892cb2e22ad"
+  dependencies:
+    graphql "^16.6.0"
+    graphql-compose "^9.0.10"
+    graphql-compose-mongoose "^9.8.0"
+    mongoose "^7.1.0"
+
 "@yourkitchen/models@git+https://github.com/YourKitchen/yourkitchen-models.git":
   version "1.0.5"
   resolved "git+https://github.com/YourKitchen/yourkitchen-models.git#ff6422e2555abfb35080385388b8e6a11db89a14"
@@ -283,7 +292,7 @@ mongodb@5.3.0:
   optionalDependencies:
     saslprep "^1.0.3"
 
-mongoose@7.1.0, mongoose@^7.1.0:
+mongoose@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-7.1.0.tgz#ad7f23184a0c19eb8efbbad4f1ff2113ede1515d"
   integrity sha512-shoo9z/7o96Ojx69wpJn65+EC+Mt3q1SWTducW+F2Y4ieCXo0lZwpCZedgC841MIvJ7V8o6gmzoN1NfcnOTOuw==
