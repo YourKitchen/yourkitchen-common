@@ -79,15 +79,6 @@
     graphql-compose-mongoose "^9.8.0"
     mongoose "^7.1.0"
 
-"@yourkitchen/models@git+https://github.com/YourKitchen/yourkitchen-models.git":
-  version "1.0.5"
-  resolved "git+https://github.com/YourKitchen/yourkitchen-models.git#ff6422e2555abfb35080385388b8e6a11db89a14"
-  dependencies:
-    graphql "^16.6.0"
-    graphql-compose "^9.0.10"
-    graphql-compose-mongoose "^9.8.0"
-    mongoose "^7.1.0"
-
 acorn-walk@^8.1.1:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
@@ -220,9 +211,9 @@ graphql-type-json@0.3.2:
   integrity sha512-J+vjof74oMlCWXSvt0DOf2APEdZOCdubEvGDUAlqH//VBYcOYsGgRW7Xzorr44LvkjiuvecWc8fChxuZZbChtg==
 
 graphql@^16.6.0:
-  version "16.6.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
-  integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.8.1.tgz#1930a965bef1170603702acdb68aedd3f3cf6f07"
+  integrity sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==
 
 ieee754@^1.2.1:
   version "1.2.1"
